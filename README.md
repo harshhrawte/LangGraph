@@ -81,6 +81,11 @@ customer-insights-pro/
 └── 📝 .gitignore                    # Git ignore rules
 ```
 
+The postgres SQL table :
+
+
+![image](https://github.com/user-attachments/assets/f0b17666-1a58-40a1-848c-6916aa9e820e)
+
 ## 🚀 Quick Start
 
 ### Prerequisites
