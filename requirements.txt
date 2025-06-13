@@ -19,4 +19,6 @@ openpyxl
 PyPDF2
 pdfminer.six
 google-generativeai
-crewai
+
+
+
