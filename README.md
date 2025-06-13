@@ -156,14 +156,15 @@ curl "http://localhost:8000/recommendation?customer_id=12345"
 ```
 
 **Response:**
-```
+
 ![image](https://github.com/user-attachments/assets/3218334d-a5af-4afe-b484-df674b20c1ee)
 ![image](https://github.com/user-attachments/assets/c5b80734-ecd8-43e9-8031-774c6ba8a945)
+
 Also the output is saved in a pdf format for Client Ease :
 ![image](https://github.com/user-attachments/assets/0c27a4b8-3175-4972-b7a0-38396f53298a)
 
 
-```
+
 
 ## 🤖 Agent Details
 
