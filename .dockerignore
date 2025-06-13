@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+
+# Excel/CSV and temp data files
+*.xlsx
+*.csv
+*.tsv
+
+# Logs and reports
+*.log
+*.pdf
+*.md
+
+# Jupyter notebooks (if any)
+*.ipynb
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE / editor settings
+.vscode/
+.idea/
+*.swp
