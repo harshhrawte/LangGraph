@@ -57,7 +57,7 @@ graph TD
 | **AI/ML** | LangChain | Natural language processing |
 | **Reports** | ReportLab/WeasyPrint | PDF generation |
 | **Containerization** | Docker | Deployment |
-| **Language** | Python 3.8+ | Core development |
+| **Language** | Python 3.10 | Core development |
 
 ## 📁 Project Structure
 
@@ -85,15 +85,15 @@ customer-insights-pro/
 
 ### Prerequisites
 
-- Python 3.8+
-- PostgreSQL 12+
+- Python 3.10
+- PostgreSQL 17
 - Docker (optional)
 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/customer-insights-pro.git
-cd customer-insights-pro
+git clone https://github.com/harshhrawte/LangGraph.git
+cd LangGraph
 ```
 
 ### 2. Environment Setup
@@ -131,7 +131,7 @@ LANGCHAIN_API_KEY=your_langchain_api_key
 python main.py
 ```
 
-The API will be available at `http://localhost:8000`
+The API will be available at `http://127.0.0.1:8000/generate-report`
 
 ## 🐳 Docker Deployment
 
@@ -145,7 +145,7 @@ docker run -p 8000:8000 customer-insights-pro
 
 ### Get Customer Recommendations
 
-**Endpoint:** `GET /recommendation`
+**Endpoint:** `[GET /recommendation](http://127.0.0.1:8000/generate-report)`
 
 **Parameters:**
 - `customer_id` (required): Unique customer identifier
@@ -156,20 +156,13 @@ curl "http://localhost:8000/recommendation?customer_id=12345"
 ```
 
 **Response:**
-```json
-{
-  "customer_id": "12345",
-  "research_report": "Comprehensive analysis text...",
-  "recommendations": [
-    {
-      "product": "Backup Batteries",
-      "type": "cross-sell",
-      "confidence_score": 0.87,
-      "rationale": "High affinity with generator purchases"
-    }
-  ],
-  "report_pdf_url": "/reports/customer_12345_report.pdf"
-}
+```
+![image](https://github.com/user-attachments/assets/3218334d-a5af-4afe-b484-df674b20c1ee)
+![image](https://github.com/user-attachments/assets/c5b80734-ecd8-43e9-8031-774c6ba8a945)
+Also the output is saved in a pdf format for Client Ease :
+![image](https://github.com/user-attachments/assets/0c27a4b8-3175-4972-b7a0-38396f53298a)
+
+
 ```
 
 ## 🤖 Agent Details
@@ -280,8 +273,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 For questions, issues, or feature requests:
 
 - 📧 Email: support@customer-insights-pro.com
-- 🐛 Issues: [GitHub Issues](https://github.com/yourusername/customer-insights-pro/issues)
-- 📖 Documentation: [Wiki](https://github.com/yourusername/customer-insights-pro/wiki)
+- 🐛 Issues: [GitHub Issues](https://github.com/harshhrawte/)
+- 📖 Documentation: [Wiki](https://github.com/harshhrawte/)
 
 ---
 
@@ -289,6 +282,6 @@ For questions, issues, or feature requests:
 
 **Built with ❤️ for intelligent business growth**
 
-[⭐ Star this repo](https://github.com/yourusername/customer-insights-pro) • [🍴 Fork](https://github.com/yourusername/customer-insights-pro/fork) • [📋 Report Bug](https://github.com/yourusername/customer-insights-pro/issues)
+[⭐ Star this repo](https://github.com/harshhrawte/LangGraph) • [🍴 Fork](https://github.com/harshhrawte/LangGraph.git) • [📋 Report Bug](https://github.com/harshhrawte/)
 
 </div>
