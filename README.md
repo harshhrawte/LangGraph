@@ -166,10 +166,12 @@ curl "http://127.0.0.1:8000/generate-report"
 ![image](https://github.com/user-attachments/assets/c5b80734-ecd8-43e9-8031-774c6ba8a945)
 
 Also the output is saved in a pdf format for Client Ease :
+
 ![image](https://github.com/user-attachments/assets/0c27a4b8-3175-4972-b7a0-38396f53298a)
 
+The Customer Report PDF :
 
-
+https://drive.google.com/file/d/1QPFskHDE5LOLf_T3S8poNoubYzhwnJa4/view?usp=sharing
 
 ## 🤖 Agent Details
 
