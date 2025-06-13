@@ -152,7 +152,7 @@ docker run -p 8000:8000 customer-insights-pro
 
 **Example Request:**
 ```bash
-curl "http://localhost:8000/recommendation?customer_id=12345"
+curl "http://127.0.0.1:8000/generate-report"
 ```
 
 **Response:**
