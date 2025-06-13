@@ -136,4 +136,4 @@ def extract_data(excel_path):
 
 # Entry point
 if __name__ == "__main__":
-    extract_data("C:/Harsh/Desktop/langgraph/data for assignemnt.xlsx")
+    extract_data("C:/Harsh/Desktop/langgraph/data/data for assignemnt.xlsx")
