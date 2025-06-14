@@ -10,7 +10,7 @@ class AgentState(TypedDict):
 
 # 2. Run the LangGraph agent
 def run_langgraph():
-    graph = StateGraph(AgentState)  # ✅ FIXED: Passed the state schema
+    graph = StateGraph(AgentState)  # FIXED: Passed the state schema
 
     # Step 1: Fetch data from PostgreSQL
     def fetch_step(state: AgentState) -> AgentState:
