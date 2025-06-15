@@ -1,7 +1,7 @@
 # InsightEdge
 *Intelligent Cross-Sell & Upsell Recommendation Engine*
 
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
+[![Python](https://img.shields.io/badge/Python-3.10-blue.svg)](https://python.org)
 [![LangGraph](https://img.shields.io/badge/LangGraph-Enabled-green.svg)](https://langchain.com)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue.svg)](https://postgresql.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-API-red.svg)](https://fastapi.tiangolo.com)
@@ -9,7 +9,7 @@
 
 ## 🌟 Overview
 
-CInsightEdge is a cutting-edge AI-powered system that transforms raw customer data into actionable business intelligence. Using advanced LangGraph agents and machine learning techniques, it analyzes customer purchasing patterns, identifies market opportunities, and generates comprehensive research reports with strategic recommendations.
+InsightEdge is a cutting-edge AI-powered system that transforms raw customer data into actionable business intelligence. Using advanced LangGraph agents and machine learning techniques, it analyzes customer purchasing patterns, identifies market opportunities, and generates comprehensive research reports with strategic recommendations.
 
 ### ✨ Key Features
 
