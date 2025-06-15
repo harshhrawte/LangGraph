@@ -9,7 +9,7 @@
 
 ## 🌟 Overview
 
-Customer Insights Pro is a cutting-edge AI-powered system that transforms raw customer data into actionable business intelligence. Using advanced LangGraph agents and machine learning techniques, it analyzes customer purchasing patterns, identifies market opportunities, and generates comprehensive research reports with strategic recommendations.
+CInsightEdge is a cutting-edge AI-powered system that transforms raw customer data into actionable business intelligence. Using advanced LangGraph agents and machine learning techniques, it analyzes customer purchasing patterns, identifies market opportunities, and generates comprehensive research reports with strategic recommendations.
 
 ### ✨ Key Features
 
